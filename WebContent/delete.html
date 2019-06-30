@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<style>
+div {
+background-image: url("nature.jpg");
+height:768px;
+width:100%;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+input[type=text], select {
+  width: 20%;
+  padding: 8px 14px;
+  margin: 8px 0;
+  }
+  
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top:-5px;
+}
+.button:hover{
+ background-color:#FF9900;
+
+}
+
+
+</style>
+</head>
+<body>
+  <div>
+  <form method = "POST" action = "Delete">
+   <b>Enter Id to delete :</b> <input type ="text" name = "id">
+  <input class = "button" type = "submit" value = "send">
+  </form>
+  </div>
+</body>
+</html>

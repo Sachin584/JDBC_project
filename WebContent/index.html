@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<style>
+div {
+background-image: url("4.jpg");
+height:768px;
+width:100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 8px 14px;
+  margin: 8px 0;
+  }
+
+input[type=password], select {
+  width: 20%;
+  padding: 8px 14px;
+   margin: 8px 0;
+  }
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top:-5px;
+}
+
+.btn{
+color:white;
+background-color: blue;
+border: 2px solid #4CAF50;
+}
+.button:hover{
+ background-color:#FF9900;
+
+}
+
+.btn1{
+color:white;
+background-color: blue;
+border: 2px solid #4CAF50;
+}
+
+.btn2{
+color:white;
+background-color: blue;
+border: 2px solid #4CAF50;
+}
+
+.btn3{
+color:white;
+background-color: blue;
+border: 2px solid #4CAF50;
+}
+
+</style>
+<body>
+<div>
+  <form method = "POST" action = "Data">
+  <b>First Name :</b> <br><input type = "text" name = "first" maxlength="4" size="20" placeholder="Enter your first name "><br>
+  <b>Last Name :</b> <br><input type = "text" name = "last" maxlength="4" size="20" placeholder="Enter your last name "><br>
+  <b>Enter mail :</b> <br><input type = "text" name = "mail" maxlength="4" size="20"placeholder="Enter your Email"><br>
+  <b>Enter Password :</b> <br><input type = "password" name = "pwd" maxlength="4" size="20" placeholder="Enter Password"><br>
+  <b>Enter Address :</b> <br><input type = "text" name = "address" maxlength="4" size="20" placeholder="Enter Address"><br><br>
+  
+  <input class="button btn" type = "submit" value = "submit data">
+  <button class="button btn1" formaction = "delete.html"><i>Delete data</i></button>
+  <button class="button btn2" formaction = "Display">Display data</button>
+  <button class="button btn3" formaction = "indexUpdate.html">update data</button>
+  
+  </form>
+  </div>
+</body>
+</html>
